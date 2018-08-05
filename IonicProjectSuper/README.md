@@ -28,6 +28,8 @@ without duplicating code.
 2. [Pages](#pages)
 3. [Providers](#providers)
 4. [i18n](#i18n) (adding languages)
+5. [commandlist](#commandlist)
+6. [secondrun](#secondrun)
 
 ## <a name="getting-started"></a>Getting Started
 
@@ -94,3 +96,16 @@ code (ex: en/gb/de/es/etc.).
 
 To change the language of the app, edit `src/app/app.component.ts` and modify
 `translate.use('en')` to use the LANGCODE from `src/assets/i18n/`
+
+## commandlist
+
+### npm install -g ionic cordova
+### ionic start IonicProjectSuper super
+### ionic cordova platform add android
+### emulator -avd api28
+### ionic cordova run android
+
+## secondrun
+
+### emulator -avd api28
+### ionic cordova run android
